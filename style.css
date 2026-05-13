@@ -69,9 +69,10 @@ h2 {
 
 .gallery img {
   width: 100%;
-  aspect-ratio: 4 / 3;
-  object-fit: cover;
+  height: auto;
+  object-fit: contain;
   border-radius: 0.8rem;
+  display: block;
 }
 
 @media (max-width: 700px) {
