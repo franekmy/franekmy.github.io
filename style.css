@@ -51,6 +51,16 @@ h2 {
   margin-top: 2rem;
 }
 
+.thesis {
+  margin-top: 1.5rem;
+  padding-left: 1rem;
+  border-left: 3px solid #ddd;
+}
+
+.thesis h2 {
+  margin-top: 0;
+}
+
 .profile {
   width: 100%;
   border-radius: 1rem;
@@ -63,6 +73,25 @@ h2 {
   color: white;
   text-decoration: none;
   border-radius: 0.5rem;
+}
+
+.expandable-list {
+  border-top: 1px solid #ddd;
+}
+
+.expandable-list details {
+  border-bottom: 1px solid #ddd;
+  padding: 0.8rem 0;
+}
+
+.expandable-list summary {
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.expandable-list p {
+  margin-bottom: 0;
+  color: #555;
 }
 
 .gallery {
