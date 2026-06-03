@@ -53,8 +53,6 @@ h2 {
 
 .thesis {
   margin-top: 1.5rem;
-  padding-left: 1rem;
-  border-left: 3px solid #ddd;
 }
 
 .thesis h2 {
@@ -87,6 +85,7 @@ h2 {
 .expandable-list summary {
   cursor: pointer;
   font-weight: 600;
+  margin-left: 1.5rem;
 }
 
 .expandable-list p {
