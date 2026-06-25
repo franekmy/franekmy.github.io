@@ -64,15 +64,6 @@ h2 {
   border-radius: 1rem;
 }
 
-.button {
-  display: inline-block;
-  padding: 0.7rem 1rem;
-  background: #222;
-  color: white;
-  text-decoration: none;
-  border-radius: 0.5rem;
-}
-
 .expandable-list {
   border-top: 1px solid #ddd;
 }
