@@ -167,3 +167,58 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+
+
+.publication-item {
+  margin-bottom: 1.2rem;
+}
+
+.publication-title {
+  margin-bottom: 0.2rem;
+}
+
+.publication-links,
+.talk-links {
+  font-size: 0.9rem;
+  margin-top: 0.2rem;
+  color: #666;
+}
+
+.publication-links a,
+.talk-links a {
+  text-decoration: none;
+}
+
+.publication-links a:hover,
+.talk-links a:hover {
+  text-decoration: underline;
+}
+
+.talks-list {
+  display: grid;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.talk-card {
+  padding: 1rem 1.2rem;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background: #fafafa;
+}
+
+.talk-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.25rem;
+  font-size: 1.05rem;
+}
+
+.talk-card p {
+  margin-bottom: 0.5rem;
+}
+
+.talk-meta {
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 0;
+}
