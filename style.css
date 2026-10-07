@@ -185,7 +185,7 @@ footer {
 }
 
 
-.publication-item {
+.entry-list li {
   margin-bottom: 1.2rem;
 }
 
@@ -205,10 +205,6 @@ footer {
 
 .publication-links a:hover {
   text-decoration: underline;
-}
-
-.talks-list {
-  margin-top: 1rem;
 }
 
 .talk-meta {
